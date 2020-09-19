@@ -13,11 +13,6 @@ class PokemonViewController: UIViewController {
     let cellID = "Cell"
     var pokemonViewmodel: PokemenViewModel?
     
-    lazy var datas: Array<GetPokemonsQuery.Data.Pokemon?>? = {
-        let array: Array  = Array<GetPokemonsQuery.Data.Pokemon?>()
-        return array
-    }()
-    
     lazy var tableView: UITableView! = {
         let view = UITableView.init(frame: .zero, style: .plain)
         view.rowHeight = UITableView.automaticDimension
@@ -25,6 +20,7 @@ class PokemonViewController: UIViewController {
         view.dataSource = self
         return view
     }()
+    
     var safeLayoutGuide:UILayoutGuide {
         return self.view.safeAreaLayoutGuide
     }

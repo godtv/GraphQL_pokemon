@@ -106,12 +106,12 @@
 			path = PokemonViewController;
 			sourceTree = "<group>";
 		};
-		CBBDDA4425164BA900EB00DF /* Helper */ = {
+		CBBDDA4425164BA900EB00DF /* Global Constants */ = {
 			isa = PBXGroup;
 			children = (
 				CBBDDA4525164BC000EB00DF /* URLConstants.swift */,
 			);
-			path = Helper;
+			path = "Global Constants";
 			sourceTree = "<group>";
 		};
 		CBBDDA4D251651AC00EB00DF /* GraphqlSchema */ = {
@@ -163,7 +163,7 @@
 		CBEDBB73251444AE0069068C /* PokemonGraphQLDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CBBDDA4425164BA900EB00DF /* Helper */,
+				CBBDDA4425164BA900EB00DF /* Global Constants */,
 				CBBDDA402516489500EB00DF /* PokemonViewController */,
 				CBEDBBBF2514B8470069068C /* View */,
 				CBEDBBB6251498180069068C /* ViewModel */,

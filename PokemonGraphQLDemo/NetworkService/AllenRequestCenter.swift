@@ -11,7 +11,7 @@ import Apollo
 
 class AllenRequestCenter {
     static let shared: AllenRequestCenter = AllenRequestCenter()
-    var apolloClient = ApolloClient(url: URL(string: API_URL.GRAPHQL_POKEMON)!)
+    var apolloClient = ApolloClient(url: URL(string: API_URL.GRAPHQL_POKEMON_API)!)
     
 }
  

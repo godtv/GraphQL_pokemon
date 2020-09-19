@@ -17,6 +17,7 @@ extension PokemonViewController : UITableViewDelegate {
     }
 }
 
+// MARK: - UITableView DataSource
 extension PokemonViewController : UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -31,7 +32,7 @@ extension PokemonViewController : UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: self.cellID, for: indexPath) as? ItemCell
        
-        let data = pokemonViewmodel?.indexDataViewModel(indexPath)
+        let data = pokemonViewmodel?.indexPokemonModel(indexPath)
         
         pokemonViewmodel?.getImage(indexPath, completionHanlder: { (image) in
             cell?.cellImgv.image = image
@@ -39,10 +40,7 @@ extension PokemonViewController : UITableViewDataSource {
 
         cell?.titleLabel.text =   data?.name ?? "N/A"
         cell?.numLabel.text =  ("Number: \(data?.number ?? "N/A")")
-
         cell?.selectionStyle = .none
-
-
 
         return cell!
     }

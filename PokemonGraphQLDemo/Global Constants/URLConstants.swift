@@ -9,5 +9,5 @@
 import Foundation
 
 struct API_URL {
-   static let GRAPHQL_POKEMON = "https://graphql-pokemon2.vercel.app/"
+   static let GRAPHQL_POKEMON_API = "https://graphql-pokemon2.vercel.app/"
 }

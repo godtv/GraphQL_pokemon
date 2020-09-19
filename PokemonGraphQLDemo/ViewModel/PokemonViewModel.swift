@@ -16,16 +16,15 @@ class PokemenViewModel
     
     var pokemons: [GetPokemonsQuery.Data.Pokemon?]?
     
-    init(pokemons: [GetPokemonsQuery.Data.Pokemon?]){
-        self.pokemons = pokemons
-    }
-    
-    
     public var count: Int {
         return self.pokemons?.count ?? 0
     }
     
-    public func indexDataViewModel(_ index: IndexPath) -> GetPokemonsQuery.Data.Pokemon? {
+    init(pokemons: [GetPokemonsQuery.Data.Pokemon?]){
+        self.pokemons = pokemons
+    }
+    
+    public func indexPokemonModel(_ index: IndexPath) -> GetPokemonsQuery.Data.Pokemon? {
         return self.pokemons?[index.row]
     }
     
