@@ -36,9 +36,9 @@ class PokemenViewModel
         manager.loadImage(with: URL(string: imageURL!), options: .queryMemoryData, progress: { (receivedSize, expectedSize, url) in
             
         }) { (image, data, error, catchType, finished, imageURL) in
-            
-            if error == nil {
-                completionHanlder(image!)
+           
+            if let img =  image {
+                completionHanlder(img)
             }
             
         }
