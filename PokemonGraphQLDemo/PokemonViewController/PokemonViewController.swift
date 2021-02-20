@@ -47,6 +47,7 @@ class PokemonViewController: UIViewController {
         
         //load Data
         loadData()
+        print("finish")
     }
     
     func loadData() {
