@@ -35,42 +35,66 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>6</integer>
+=======
+			<integer>9</integer>
+>>>>>>> origin/test22021-2-22
 		</dict>
 		<key>SQLite (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>7</integer>
+=======
+			<integer>10</integer>
+>>>>>>> origin/test22021-2-22
 		</dict>
 		<key>SQLite (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>5</integer>
+=======
+			<integer>8</integer>
+>>>>>>> origin/test22021-2-22
 		</dict>
 		<key>Spectre (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>9</integer>
+=======
+			<integer>6</integer>
+>>>>>>> origin/test22021-2-22
 		</dict>
 		<key>Spectre (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>10</integer>
+=======
+			<integer>7</integer>
+>>>>>>> origin/test22021-2-22
 		</dict>
 		<key>Spectre (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>8</integer>
+=======
+			<integer>5</integer>
+>>>>>>> origin/test22021-2-22
 		</dict>
 	</dict>
 </dict>
