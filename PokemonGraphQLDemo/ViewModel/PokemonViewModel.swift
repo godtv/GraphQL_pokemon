@@ -38,6 +38,7 @@ class PokemenViewModel
         }) { (image, data, error, catchType, finished, imageURL) in
            
             if let img =  image {
+                print("finish")
                 completionHanlder(img)
             }
             
