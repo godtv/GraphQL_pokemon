@@ -56,7 +56,7 @@ class PokemonViewController: UIViewController {
             
             switch result {
             case .success(let graphQLResult):
-                
+                print("success")
                 self.pokemonViewmodel = PokemenViewModel(pokemons: (graphQLResult.data?.pokemons)!)
                 self.tableView.reloadData()
                 MBProgressHUD.hide(for: self.view, animated: false)
